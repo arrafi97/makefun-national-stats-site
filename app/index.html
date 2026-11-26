@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NusaData — angka resmi Indonesia 2020–2024: penduduk, ekonomi, kemiskinan, ketenagakerjaan, dan wilayah, lengkap dengan sumbernya.">
+<title>NusaData — Statistik Nasional Indonesia</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f2e46'/%3E%3Crect x='7' y='17' width='5' height='9' fill='%230e7c7b'/%3E%3Crect x='14' y='11' width='5' height='15' fill='%23e8a33d'/%3E%3Crect x='21' y='14' width='5' height='12' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/"><span class="brand-name">Nusa<em>Data</em></span><span class="brand-tag">Statistik Nasional Indonesia</span></a>
+  <label class="year-picker" for="year-select">Tahun data
+    <select id="year-select" aria-label="Pilih tahun data">
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024" selected>2024</option>
+    </select>
+  </label>
+</header>
+<nav id="nav" aria-label="Navigasi utama"></nav>
+<main id="app" aria-live="polite"></main>
+<footer>
+  <p>NusaData — situs independen yang menyajikan ulang data resmi Indonesia. Bukan situs resmi Badan Pusat Statistik.</p>
+  <p>Angka berasal dari BPS, Kementerian Keuangan, Bank Indonesia, dan Ditjen Dukcapil Kemendagri; sumber dan tahun tertulis di samping setiap angka.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
